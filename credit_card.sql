@@ -38,7 +38,6 @@ SELECT CUST_ID, BALANCE, MINIMUM_PAYMENTS,
 FROM CREDIT_CARD
 ORDER BY DEFAULT_RISK DESC;
 
-
 -- Customer segmentation based on purchase frequency and on-off purchase frequency
 SELECT 
 	CASE
